@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>サムライヨガスタジオ</title>
+    <!--custom css-->
+    <link rel="stylesheet" href="Css/style.css" />
+    <style>
+      /* Modal styles */
+      .modal {
+        display: flex;
+        position: fixed;
+        z-index: 1000;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.8);
+        justify-content: center;
+        align-items: center;
+      }
+
+      .modal-content {
+        max-width: 600px;
+        max-height: 80%;
+        margin: auto;
+      }
+
+      .modal-content img {
+        width: 100%;
+        height: auto;
+      }
+
+      /* Close button styles */
+      .close {
+        position: absolute;
+        top: 20%;
+        right: 20%;
+        color: white;
+        font-size: 30px;
+        font-weight: bold;
+        cursor: pointer;
+      }
+
+      .close:hover,
+      .close:focus {
+        color: #ff0000;
+        text-decoration: none;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- Modal Structure -->
+    <div id="imageModal" class="modal">
+      <div class="modal-content">
+        <span class="close" id="closeModal">&times;</span>
+        <img src="image/photo01.webp" alt="サムライヨガ" />
+        <h2 style="color: white; text-align: center">
+          今すぐベストティーチャーからヨガを学ぶ
+        </h2>
+      </div>
+    </div>
+    <section class="logo container">
+      <a href="index.html">
+        <img src="image/logo.png" alt="サムライヨガ" />
+      </a>
+    </section>
+    <nav>
+      <ul class="nav container">
+        <li><a href="index.html">ホーム</a></li>
+        <li><a href="">私たちについて</a></li>
+        <li><a href="">初心者向け</a></li>
+        <li><a href="">クラス</a></li>
+        <li><a href="">商品</a></li>
+        <li><a href="">特別イベント</a></li>
+        <li><a href="">お問い合わせ</a></li>
+      </ul>
+    </nav>
+    <!--banner-1-->
+    <section class="banner1 container">
+      <div class="banner-1-body">
+        <h1>健康な<span>体作り</span></h1>
+        <h1>私たちと<span>ヨガをしましょう</span></h1>
+        <p>ヨガは時間を奪うものではありません。時間を与えるものです。</p>
+      </div>
+      <div class="banner-1-image">
+        <img src="image/slideshow1_img.png" alt="ヨガイメージ" />
+      </div>
+    </section>
+    <!--banner-2-->
+    <section class="banner-2 container">
+      <div class="banner-2-image">
+        <img src="image/slideshow1_img_2.png" alt="ヨガスタジオ" />
+      </div>
+      <div class="banner-2-body">
+        <h1><span>サムライヨガ</span>へようこそ</h1>
+        <p>
+          サムライヨガは、ヨガへの情熱から生まれました。その愛をもっと多くの人々に広めたいと願っています。
+        </p>
+        <p>
+          私たちは単にヨガを教えるだけではなく、日々の悩みやストレス、人生の問題を共有できるヨガコミュニティを作りたいと考えています。ヨガは心と体のバランスを整える最高のレシピです。
+        </p>
+        <p>
+          サムライヨガは、初心者から上級者まで誰でも歓迎しています。私たちのクラスで心身の健康を手に入れましょう。
+        </p>
+      </div>
+    </section>
+    <section class="our-classes container py-60">
+      <h1 class="section-title">
+        私たちの<span class="brand-color">クラス</span>
+      </h1>
+      <!--Our Classes-->
+      <div class="card-wrapper">
+        <div class="card">
+          <div class="card-img"></div>
+          <div class="card-body">
+            <h3>ヨガ初心者クラス</h3>
+            <small>リラックスできる初心者向けのクラス</small>
+            <p>月曜日、火曜日、水曜日</p>
+            <p>15:00 - 17:00</p>
+          </div>
+          <div class="card-footer">
+            <a href="" class="btn">詳細はこちら</a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-img"></div>
+          <div class="card-body">
+            <h3>ヨガ中級クラス</h3>
+            <small>さらに深くヨガを学びたい方へ</small>
+            <p>木曜日、金曜日</p>
+            <p>18:00 - 20:00</p>
+          </div>
+          <div class="card-footer">
+            <a href="" class="btn">詳細はこちら</a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-img"></div>
+          <div class="card-body">
+            <h3>ヨガ上級クラス</h3>
+            <small>高度なポーズやテクニックを学べます</small>
+            <p>土曜日、日曜日</p>
+            <p>10:00 - 12:00</p>
+          </div>
+          <div class="card-footer">
+            <a href="" class="btn">詳細はこちら</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Our Product-->
+    <section class="our-product container py-60">
+      <h1 class="section-title">
+        私たちの<span class="brand-color">商品</span>
+      </h1>
+      <div class="card-wrapper">
+        <div class="card">
+          <img src="image/product-01.png" alt="ヨガダッフルバッグ" />
+          <p>ヨガダッフルバッグ</p>
+        </div>
+
+        <div class="card">
+          <img src="image/product-02.png" alt="ヨガマット" />
+          <p>ヨガマット</p>
+        </div>
+        <div class="card">
+          <img src="image/product-03.png" alt="ヨガボトル" />
+          <p>ヨガボトル</p>
+        </div>
+        <div class="card">
+          <img src="image/product-04.png" alt="ヨガウェア" />
+          <p>ヨガウェア</p>
+        </div>
+      </div>
+    </section>
+    <!--Footer-->
+    <footer>
+      <div class="footer container">
+        <div class="copyright">
+          Copyright &copy; 2024. サムライヨガ .All right reserved.
+        </div>
+        <div class="made">制作 by Samurai Yoga Team.</div>
+      </div>
+    </footer>
+    <!-- JavaScript to handle modal -->
+    <script>
+      // Get the modal element
+      var modal = document.getElementById("imageModal");
+
+      // Close the modal when the user clicks anywhere outside the modal content
+      window.onclick = function (event) {
+        modal.style.display = "none"; // Hide the modal
+      };
+    </script>
+  </body>
+</html>

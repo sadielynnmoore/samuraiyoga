@@ -1,0 +1,29 @@
+.section-title{
+    font-weight: 700;
+    color: #333333;
+    margin-bottom: 6rem;
+}
+.body-color{
+    color: var(--brand-color);
+}
+.container{
+    width: 90%;
+    margin: auto;
+    /*border: 2px solid firebrick;*/
+}
+.py-60{
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+}
+.btn{
+    display: block;
+    background-color: #333333;
+    color: #fff;
+    font-size: 1.3rem;
+    font-weight: 700;
+    padding: 1rem 0;
+    transition: .3s;
+}
+.btn:hover{
+    background-color: var(--brand-color);
+}

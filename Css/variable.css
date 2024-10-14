@@ -1,0 +1,18 @@
+:root{
+    /*font*/
+    --primary-font-family:'lato';
+    --secondary-font-family:'Open Sans';
+
+
+    /*color*/
+    --brand-color:#f25c5c;
+    --text-color:#5f5f5f;
+    --body-bg-color:#ffffff;
+
+
+    /*size*/
+
+    --primary-font-size:3.5rem;
+    --secondary-font-size:1.3rem;
+    --line-height:2.5rem;
+}

@@ -1,0 +1,83 @@
+.brand-color{
+    color: var(--brand-color);
+}
+.card-wrapper{
+    display: flex;
+    gap: 3rem;
+}
+.card-wrapper .card{
+    text-align: center;
+    height: 35rem;
+    flex-grow: 1;
+    
+    
+}
+/* Our Clsses*/
+.our-classes .card-wrapper .card{
+    
+    border: 1px solid #d9dee1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+
+}
+.our-classes .card-wrapper .card-img{
+    height: 14rem;
+    
+}
+.our-classes .card-wrapper .card:nth-child(1) .card-img{
+    background: firebrick url('../image/class_06.jpg') no-repeat center;
+    background-size: cover;
+    
+    /*background-color: firebrick;
+    background-image: url('../image/class_14.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;*/
+}
+.our-classes .card-wrapper .card:nth-child(2) .card-img{
+    background: firebrick url('../image/class_08.jpg') no-repeat center;
+    background-size: cover;
+    
+    /*background-color: firebrick;
+    background-image: url('../image/class_14.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;*/
+}
+.our-classes .card-wrapper .card:nth-child(3) .card-img{
+    background: firebrick url('../image/class_14.jpg') no-repeat center;
+    background-size: cover;
+    
+    /*background-color: firebrick;
+    background-image: url('../image/class_14.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;*/
+}
+.our-classes .card-wrapper .card:nth-child(4) .card-img{
+    background: firebrick url('../image/class_06.jpg') no-repeat center;
+    background-size: cover;
+    
+    /*background-color: firebrick;
+    background-image: url('../image/class_14.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;*/
+}
+.our-classes .card-wrapper .card .card-body h3{
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+.our-classes .card-wrapper .card .card-body small{
+    font-size: 1.5rem;
+    color: var(--brand-color);
+    display: block;
+    margin-bottom: 2rem;
+}
+/*Ou Product*/
+.our-product .card-wrapper .card p{
+    font-size: 1.8rem;
+    font-weight: 700;
+}
